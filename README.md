@@ -20,7 +20,12 @@ Now our team get to retrieve login attempts outside of Mexico, and we need to fi
 ![Screenshot (109)_proc](https://github.com/user-attachments/assets/238dd029-1d3b-4831-986f-377475d36262)
 
 ## Retrieve employees in Marketing
-[Add content here.]
+Our team is updating employee machines, and we need to obtain the information about employees in the `Marketing` department who are located in all offices in the East building (such as `East-170` or `East-320`). So in order to do that we will have to write down the following command 'SELECT * FROM employees WHERE department = 'Marketing' AND office LIKE 'EAST-%';' which filters the database for all the employees from the Marketing departement working in a East office.
+![Screenshot (112)_proc](https://github.com/user-attachments/assets/13e99432-e8c8-474e-9506-45d55e30d4c6)
+
+But since we want to find the ones who are either in  office `East-170` or office `East-320`. We can readjust our command in the following order to do so: MariaDB [organization]> SELECT *   FROM employees   WHERE department = 'Marketing'   AND (office LIKE 'East-170%' OR office LIKE 'East-320%');
+
+![Screenshot (112)_proc](https://github.com/user-attachments/assets/b1a15641-f973-4419-b983-ac2d893988e0)
 
 ## Retrieve employees in Finance or Sales
 [Add content here.]
