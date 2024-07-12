@@ -33,8 +33,11 @@ Now our team needs to perform a different update to the computers of all employe
 
 ## Retrieve all employees not in IT
 Our team made a update to employee computers in the Information Technology department. the final our team needs to make one more update which make the ones for the IT department not liable for an update so we will have to exclude them. Using the following commmand: `SELECT * FROM employees WHERE NOT department = 'Information Technology';`
+
 ![Screenshot (115)_proc](https://github.com/user-attachments/assets/5eeb1454-99b7-42a4-a329-01e3f266088e)
+
 Which outputs us the record of:
+
 ![Screenshot (116)_proc](https://github.com/user-attachments/assets/effe752e-a569-481b-9209-bb2355475170)
 
 
