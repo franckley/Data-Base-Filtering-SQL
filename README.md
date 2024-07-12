@@ -1,7 +1,5 @@
 # Data-Base-Filtering-SQL
 
-Sure, here's your text with the sections marked by "##":
-
 ## Project description
 [Describe what you accomplish through SQL.]
 
