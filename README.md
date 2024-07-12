@@ -15,7 +15,9 @@ My team is investigating a suspicious event that occured on `2022-05-09`. We wan
 ![Screenshot (107)_proc](https://github.com/user-attachments/assets/904da667-203e-4e33-9ba1-d676bb7fdae1)
 
 ## Retrieve login attempts outside of Mexico
-Now our team get to retrieve login attempts outside of Mexico, adn we need to find this information. So to this we will use the  command `SELECT * FROM log_in_attempts WHERE X country LIKE 'MEX%' 
+Now our team get to retrieve login attempts outside of Mexico, and we need to find this information. So to this we will use the  command `SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%` to which the output of this command will only take in count the countries that are not MEXICO.
+![Screenshot (107)_proc](https://github.com/user-attachments/assets/37b30796-bc71-47e0-a434-63a6d931d047)
+![Screenshot (109)_proc](https://github.com/user-attachments/assets/6c255d08-3ab8-4814-87fe-210292ff709e)
 
 ## Retrieve employees in Marketing
 [Add content here.]
