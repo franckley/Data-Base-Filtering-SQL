@@ -1,4 +1,4 @@
-# Data-Base-Filtering-SQL
+# Database-Filtering-SQL
 
 ## Project description
 My organisation needs to obtain specific information aobut employees, their machines, and the departments they belong to from the database. In order for the team to investigate potential security issues and to update computers. My responsability is to filter the required information from the database.
