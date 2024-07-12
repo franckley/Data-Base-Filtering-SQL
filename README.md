@@ -42,4 +42,4 @@ Which outputs us the record of:
 
 
 ## Summary
-[Add content here.]
+Now the database of our organisation is ready to be updated.
