@@ -25,7 +25,7 @@ Our team is updating employee machines, and we need to obtain the information ab
 
 But since we want to find the ones who are either in  office `East-170` or office `East-320`. We can readjust our command in the following order to do so: `MariaDB [organization]> SELECT *   FROM employees   WHERE department = 'Marketing'   AND (office LIKE 'East-170%' OR office LIKE 'East-320%');`.
 
-![Screenshot (112)_proc](https://github.com/user-attachments/assets/b1a15641-f973-4419-b983-ac2d893988e0)
+![Screenshot (113)_proc](https://github.com/user-attachments/assets/dfb38c05-96b3-4d11-a350-2bb8662ae043)
 
 ## Retrieve employees in Finance or Sales
 [Add content here.]
